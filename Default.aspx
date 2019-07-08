@@ -128,7 +128,7 @@ height: 300px ;}
 
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<h4>Column 1</h4>
-					fsdfsdfsdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+                    sss
 					<h2>Button Group</h2>
 					<div class = "btn-group">
 						<button type = "button" class = "btn btn-info">Cricket</button>
