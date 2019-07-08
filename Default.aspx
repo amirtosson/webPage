@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+	<title></title>
 	<link href="Content/bootstrap.min.css" rel="stylesheet" />
 	<script src="Scripts/jquery-3.0.0.min.js"></script>
 	<script src="Scripts/bootstrap.min.js"></script>
@@ -63,7 +63,7 @@ height: 300px ;}
 							href = "#collapsewithlink" role = "button" aria-expanded = "false" 
 							aria-controls = "collapsewithlink">Click Me</a>
 						</p>
-         
+		 
 					<div class = "collapse" id = "collapsewithlink">
 						<div class = "card card-body">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -84,36 +84,36 @@ height: 300px ;}
 						<li data-target = "#carouselExampleIndicators" data-slide-to = "2s"></li>
 					</ol>
 								
-            <div class =" carousel-inner" >
-               <div class = "carousel-item active">
-                  <img class = "d-block w-100 " 
-                     src = "Images\main_looking.PNG" 
-                     alt = "First slide"/>
-               </div>
-               
-               <div class = "carousel-item">
-                  <img class = "d-block w-100 h-100" 
-                     src = "Images\index.jfif" 
-                     alt = "Second slide"/>
-               </div>
-               <div class = "carousel-item">
-                  <img class = "d-block w-100 h-100" 
-                     src = "Images\indexsa.jfif" 
-                     alt = "Second slide"/>
-               </div>
-               </div>
-            </div>
+			<div class =" carousel-inner" >
+			   <div class = "carousel-item active">
+				  <img class = "d-block w-100 " 
+					 src = "Images\main_looking.PNG" 
+					 alt = "First slide"/>
+			   </div>
+			   
+			   <div class = "carousel-item">
+				  <img class = "d-block w-100 h-100" 
+					 src = "Images\index.jfif" 
+					 alt = "Second slide"/>
+			   </div>
+			   <div class = "carousel-item">
+				  <img class = "d-block w-100 h-100" 
+					 src = "Images\indexsa.jfif" 
+					 alt = "Second slide"/>
+			   </div>
+			   </div>
+			</div>
 			</div>
 			<a class = "carousel-control-prev" href = "#carouselwithIndicators" role = "button" data-slide = "prev">
-               <span class = "carousel-control-prev-icon" aria-hidden = "true"></span>
-               <span class = "sr-only">Previous</span>
-            </a>
-            
-            <a class = "carousel-control-next" href = "#carouselwithIndicators" role = "button" data-slide = "next">
-               <span class = "carousel-control-next-icon" aria-hidden = "true"></span>
-               <span class = "sr-only">Next</span>
-            </a>
-         </div>
+			   <span class = "carousel-control-prev-icon" aria-hidden = "true"></span>
+			   <span class = "sr-only">Previous</span>
+			</a>
+			
+			<a class = "carousel-control-next" href = "#carouselwithIndicators" role = "button" data-slide = "next">
+			   <span class = "carousel-control-next-icon" aria-hidden = "true"></span>
+			   <span class = "sr-only">Next</span>
+			</a>
+		 </div>
 </div>
 		
 			<div class="container">
@@ -143,13 +143,41 @@ height: 300px ;}
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<h4>Column 3</h4>
-					<h2>Here is the place for column 3 </h2>
-         
-            
+					<div>
+	                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" onclick="btnclick_Click">
+                            Launch demo modal
+                        </button>
+                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Data privicy</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                      </div>
+                                        <div class="modal-body">
+                                        <div class="modal-body"  runat="server" >
+                                            <div>
+                                        <asp:Label ID="exampleModalBody"  runat="server" >
+                                        </asp:Label>
+                                            <br />
+                                         </div>
+                                        </div>
+                                        </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 				</div>
 			 </div>
 		</div>
+  
    </form>
 </body>
 </html>
