@@ -139,12 +139,16 @@ height: 300px ;}
 					
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					 <h4>Column 2</h4>
-					Here is the place for column 2 
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                             <input id="usr" type="text" class="form-control" name="email" placeholder="Name"  runat="server"/>
+                            <asp:Button ID="btnclick" runat="server" Text="Click" onclick="btnclick_Click" />                            
+                            </div> 
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<h4>Column 3</h4>
 					<div>
-	                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" onclick="btnclick_Click">
+	                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong" >
                             Launch demo modal
                         </button>
                         <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
