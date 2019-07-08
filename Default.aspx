@@ -73,9 +73,9 @@ height: 300px ;}
 					</div>
 					</div>
 				</div>
-				<h1>My First Page </h1>
-				<p> Amir Tosson</p>
-				<h2>Collapse with Link</h2>
+				<h1>SoFA website</h1>
+				<p> Solved For All</p>
+				<h2>History</h2>
 					<div class="center">
 				<div id = "carouselwithIndicators" class = "carousel slide w-50  justify-content-center" data-ride = "carousel">
 					<ol class = "carousel-indicators">
@@ -117,18 +117,17 @@ height: 300px ;}
 </div>
 		
 			<div class="container">
-				<h2>Alerts</h2>
+				<h2>Our goal </h2>
 				<div class = "alert alert-primary" role = "alert">
-					primary  alert - Welcome to Tutorialspoint!!! alksfsakfnmkl.kdnsgsm,fd glkbvnsydbm,s dblkn   
+					primary  alert - We have a dream    
 				</div>
 				<h2>Badge</h2>
-				<h1>Welcome to <span class = "badge badge-secondary">Tutorialspoint</span></h1>
-				<h2>Welcome to <span class = "badge badge-secondary">Tutorialspoint</span></h2>
+				<h1>It is a  <span class = "badge badge-secondary">free service </span></h1>
+				<h2>It is <span class = "badge badge-secondary">costly</span></h2>
 				<div class="row">
 
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<h4>Column 1</h4>
-                    sss
 					<h2>Button Group</h2>
 					<div class = "btn-group">
 						<button type = "button" class = "btn btn-info">Cricket</button>
@@ -136,15 +135,15 @@ height: 300px ;}
 						<button type = "button" class = "btn btn-info">Hockey</button>
 					</div>
 				</div>
-				<img src="Images\main_looking.PNG" class="col-lg-3 col-md-3 col-sm-6 col-xs-12"/>
+			
 					
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					 <h4>Column 3</h4>
-					Solaaa
+					 <h4>Column 2</h4>
+					Here is the place for column 2 
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<h4>Column 4</h4>
-					<h2>Basic Carousel</h2>
+					<h4>Column 3</h4>
+					<h2>Here is the place for column 3 </h2>
          
             
 
